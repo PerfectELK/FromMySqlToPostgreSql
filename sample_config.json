@@ -37,5 +37,9 @@
         "By default, ti is 0 - entire db-structure + data",
         "In order to migrate data only - set 1"
     ],
-    "data_only" : 0
+    "data_only" : 0,
+    "import_tables_only" : [],
+    "import_tables_only_description" : [
+        "Tables to import, default all."
+    ]
 }
